@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+  margin: 0;
+}
+
+ul{
+list-style-type: none;
+height: 50px;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+position: sticky;
+}
+
+li{
+  display: inline;
+  float: right;
+  margin-right: 25px;
+  padding: 14px 16px;
+}
+
+li a{
+  text-decoration: none;
+  font-size: large;
+}
+
+li a:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+.introducao{
+font-family: 'Segoe UI';
+font-size: large;
+margin-left: 125px;
+}
+
+.imagem, .introducao{
+  display: flex;
+  align-items: center;
+}
+
+.imagem{
+height: 350px;
+width: 350px;
+margin-left: 120px;
+margin-right: 50px;
+border-radius: 50%;
+box-shadow: rgba(0,0,0,.2) black;
+}
+
+img{
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin-left: 80px;
+}
+
+.titulo{
+  margin-left: 130px;
+  margin-top: 35px;
+  font-size: 19px;
+}
+
+.projeto{
+text-align: center;
+margin-top: 50px;
+font-family: 'Segoe UI';
+}
+
+.botao1{
+border: black 2px solid;
+border-radius: 25px;
+margin-left: 120px;
+margin-bottom: 30px;
+width: 130px;
+height: 60px;
+background-color: blueviolet;
+color: white;
+}
+
+button{
+width: 130px;
+height: 60px;
+background-color: blueviolet;
+color: white;
+border: black 2px solid;
+border-radius: 25px;
+}
+
+.yes{
+    text-align: center;
+    margin-top: 100px;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+input{
+height: 20px;
+width: 500px;
+padding: 5px;
+border-radius: 5px;
+}
+
+.redes{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.instagram{
+    border: 2px gray solid;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.github{
+    border: 2px gray solid;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+  
+}
+
+.email{
+    border: 2px gray solid;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+  
+}
+</style>
+</head>
+<body>
+  <ul>
+    <li><a href="#home">home</a></li>
+    <li><a href="#contatos">contatos</a></li>
+    <li><a href="#projetos">projetos</a></li>
+    <a href="https://github.com/MateusRCosta"><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="sdf"></a>
+  </ul>
+  <div class="titulo">
+  <h1>yes yes</h1>
+  <h3 style="margin-top: 10px;">habibi</h3>
+  </div>
+  
+  <div class="introducao" id="home">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+  Similique, ut voluptate. Quis minus est adipisci nisi, facilis pariatur impedit blanditiis nobis commodi magni <br>quibusdam libero explicabo assumenda 
+  <br>obcaecati corporis sint? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe labore, minus ipsum adipisci, odio<br>aliquam vitae aut corporis neque exercitationem inventore, <br>
+  illum molestiae tempora nihil optio maxime?</p>
+  <img class="imagem"src="https://s2-receitas.glbimg.com/i76rBmoeVOne9qbu5EBIjtxCDWs=/0x0:1280x800/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/V/Z/7jJ0zHQvqiPIKEQQxPXw/bolo-facil-de-liquidificador.jpg">
+  </div>
+
+  <button class="botao1">CONTATE-ME</button>
+
+  <div class="projeto">
+    <h1 id="projetos">PROJETOS</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Ex doloremque esse amet quia omnis nam sequi dolore minus,<br> accusamus ad mollitia a perspiciatis porro placeat, aliquam harum magni earum libero?</p>
+</div>
+<div class="yes">
+    <h1 id="contatos">CONTATOS</h1>
+    <form>
+        <input type="text" placeholder="Digite seu nome" id="nome" required class="g1">
+        <br>    
+        <input type="email" placeholder="Digite seu email" id="email" required class="ggg">
+        <br>
+        <textarea  cols="35" rows="15" id="" placeholder="Deixe uma mensagem" class="g5"></textarea>
+        <br>
+        <button>ENVIAR</button>
+    </form>
+    <br>
+    <div class="redes">
+        <strong><p class="instagram">INSTAGRAM:</strong><br>
+       instagram.com</p>
+        <strong><p class="github">GITHUB:</strong><br>
+        github.com</p>
+        <strong><p class="email">EMAIL:<br></strong>
+            andre.walzer@gmailzika.com</p>
+    </div>
+</div>
+</body>
+</html>
